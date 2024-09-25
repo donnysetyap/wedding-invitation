@@ -135,7 +135,7 @@ export const util = (() => {
 
         if (mod == 1) {
             customModel.forEach((reseption, index) => {
-                reseption.innerHTML=escapeHtml(" anak ")
+                reseption.innerHTML=escapeHtml(" putra putri ")
             })
         } else if (mod == 2) {
             customModel.forEach((reseption, index) => {
@@ -143,7 +143,7 @@ export const util = (() => {
             })
         } else {
             customModel.forEach((reseption, index) => {
-                reseption.innerHTML=escapeHtml(" anak ")
+                reseption.innerHTML=escapeHtml(" putra putri ")
             })
         }
 
